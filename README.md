@@ -4,17 +4,25 @@ To control the speed of a DC motor using Pulse Width Modulation (PWM) with a dev
 
 # Algorithm
 Initialize the development board and set the motor control pin as an output. Generate a PWM signal at the required frequency.
+
 Set an initial PWM duty cycle.
+
 Apply the PWM signal to the DC motor through a suitable motor driver.
+
 Vary the duty cycle to increase or decrease the motor speed.
+
 Observe the corresponding change in motor speed.
+
 Repeat the process for different duty-cycle values.
-Procedure
+
+# Procedure
 Connect the DC motor to the motor driver circuit.
+
 Connect the motor driver to the development board.
+
 Connect the required power supply and ensure a common ground.
+
 Configure the motor control pin for PWM output.
-Upload the PWM motor-control program to the dev…
 # PROGRAM
 ```
 int MPin = 9;   //motor pin
